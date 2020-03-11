@@ -1,0 +1,46 @@
+.message-block{
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 300px;
+    max-height: 80px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    position: relative;
+    z-index: 10;
+    word-wrap: break-word;
+}
+.name{
+    width: 150px;
+    font-size: 14px;
+    text-align: left;
+    color: rgb(235, 179, 76);
+}
+
+.text{
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.time{
+    position: relative;  
+    width: 50px;
+    font-size: 12px;
+    left: 255px;
+    color: gray;
+    bottom: 5px;
+}
+
+
+
+.block {
+    width: 0; 
+    height: 0;
+    border-bottom: 20px solid rgb(255, 255, 255);
+    border-left: 20px solid transparent;
+    position: relative;
+    left: -15px;
+    top: -23px;
+    z-index: 0;
+}

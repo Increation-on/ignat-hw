@@ -1,0 +1,9 @@
+.qualities {
+    margin-top: 50px;
+}
+.qualities{
+    color: white;
+}
+.qualitie:nth-child(2){
+    color: red;
+}
