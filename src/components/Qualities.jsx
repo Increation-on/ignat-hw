@@ -5,8 +5,8 @@ import Qualitie from './Qualitie';
 
 class Qualities extends React.Component {  
     render = () => {
-        let qualitiesElements = this.props.qualities.map((qualitie)=>{
-            return <Qualitie value={qualitie.value} id={qualitie.id}/>
+        let qualitiesElements = this.props.qualities.map((qualitie, index)=>{
+            return <Qualitie value={qualitie.value} key ={index}/>
         });    
         return (
             <div className="qualities">
